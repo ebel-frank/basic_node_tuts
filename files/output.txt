@@ -1,3 +1,5 @@
-I just modified the data
-I just appended to the file
-I just appended to the file
+This is a sample text file. 
+
+The content of this file will be appended to the content of input.txt and will be written in output.txt file 
+
+Thu May 30 2024 22:44:49 GMT+0100 (West Africa Standard Time)

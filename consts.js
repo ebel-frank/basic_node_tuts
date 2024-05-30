@@ -2,7 +2,7 @@
 const secret_name = "Hilton"
 // shared
 const john = "John"
-const frank = "Frank"
+const frank = "Frank Ebeledike"
 
 module.exports = { john, frank }
 

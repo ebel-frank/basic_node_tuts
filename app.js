@@ -19,7 +19,7 @@ const readFileAsync = util.promisify(fs.readFile)
 
 // *********** Avoiding the call back hell *******************
 // Using await/async
-async function readFile() {
+const readFile = async () => {
     try {
         let data = await readFileAsync("./files/input.txt", 'utf-8')
         let data1 = await readFileAsync("./files/append.txt", 'utf-8')
