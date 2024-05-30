@@ -1,5 +1,5 @@
 const readline = require("readline")
-const fs = require("fs")
+const fs = require("fs") // require("fs").promises
 const util = require("util")
 
 const readFileAsync = util.promisify(fs.readFile)
